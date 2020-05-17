@@ -1,4 +1,4 @@
-# clash-configure
+clash-configure
 
 1,download clash_linux64.gz
 2,gunzip clash_linux64.gz
@@ -36,5 +36,5 @@ in my computer likes :
 /export/software/clash -d /export/software/ 
 7,configure at http://clash.razord.top/#/rules 
 8,configure loacl proxy
-
+以 Ubuntu 19.04 為例，打開系統設置，選擇網絡，點擊網絡代理右邊的 ⚙ 按鈕，選擇手動，填寫 HTTP 和 HTTPS 代理為 127.0.0.1:7890，填寫 Socks 主機為 127.0.0.1:7891，即可啟用系統代理。
 
